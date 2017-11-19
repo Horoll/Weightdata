@@ -1,0 +1,129 @@
+---------------------------------------------------------------
+[ 2017-11-19T19:48:33+08:00 ] ::1 ::1 GET /weightdata/weightdata/
+[ info ] localhost/weightdata/weightdata/ [运行时间：0.045255s][吞吐率：22.10req/s] [内存消耗：2,515.40kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; PHPSESSID=n7ojlqein2q7uf0h3fed7jue06; username=9ec63c5b93966198d9152a77453716ff',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\code\php\weightdata\weightdata/application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-19T19:48:40+08:00 ] ::1 ::1 POST /weightdata/weightdata/index/index/login.html
+[ info ] localhost/weightdata/weightdata/index/index/login.html [运行时间：0.047587s][吞吐率：21.01req/s] [内存消耗：3,332.43kb] [文件加载：54]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/weightdata/weightdata/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; PHPSESSID=n7ojlqein2q7uf0h3fed7jue06; username=9ec63c5b93966198d9152a77453716ff',
+)
+[ info ] [ PARAM ] array (
+  'accountname' => 'user1',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `account` = 'user1' LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2017-11-19T19:48:40+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/chart.html
+[ info ] localhost/weightdata/weightdata/index/index/chart.html [运行时间：0.051974s][吞吐率：19.24req/s] [内存消耗：2,465.89kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/weightdata/weightdata/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; PHPSESSID=n7ojlqein2q7uf0h3fed7jue06; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->chart[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\code\php\weightdata\weightdata/application/index\view\index\chart.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-19T19:49:06+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/alldata
+[ info ] localhost/weightdata/weightdata/index/index/alldata [运行时间：0.042278s][吞吐率：23.65req/s] [内存消耗：3,262.06kb] [文件加载：51]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'alldata',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; PHPSESSID=n7ojlqein2q7uf0h3fed7jue06; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->allData[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001065s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.006825s ]
