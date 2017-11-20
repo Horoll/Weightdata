@@ -2274,3 +2274,592 @@
 [ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.003249s ]
 [ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.008685s ]
 [ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.002793s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:18:54+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/initData
+[ info ] localhost/weightdata/weightdata/index/index/initData [运行时间：0.175272s][吞吐率：5.71req/s] [内存消耗：4,076.85kb] [文件加载：52]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'initData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->initData[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.006221s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074363.6640105' [ RunTime:0.001622s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.036941' [ RunTime:0.001656s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.4955785' [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.976221' [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.343988' [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.8205929' [ RunTime:0.001749s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.2878277' [ RunTime:0.002325s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.6490738' [ RunTime:0.001715s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.1321914' [ RunTime:0.002021s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.6007204' [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.9758193' [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.4441533' [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.9125733' [ RunTime:0.001584s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.2886672' [ RunTime:0.001801s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.7575328' [ RunTime:0.002047s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.2252119' [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.599832' [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.0641415' [ RunTime:0.001780s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.528021' [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.9131515' [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.38371' [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.846001' [ RunTime:0.001756s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.2207093' [ RunTime:0.001969s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.6889226' [ RunTime:0.002084s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.143939' [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.5202165' [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.9928267' [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.4490302' [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.836525' [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.2953253' [ RunTime:0.002013s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.7747688' [ RunTime:0.001631s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074377.1442547' [ RunTime:0.003031s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074378.0793056' [ RunTime:0.001597s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.4003918' [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.6796422' [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074401.0483906' [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074404.144352' [ RunTime:0.012918s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074709.437199' [ RunTime:0.002098s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.4642997' [ RunTime:0.002171s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.7443159' [ RunTime:0.001895s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074715.4415693' [ RunTime:0.007734s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.003319s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.007089s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.002537s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:18:54+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/initData
+[ info ] localhost/weightdata/weightdata/index/index/initData [运行时间：0.179063s][吞吐率：5.58req/s] [内存消耗：4,076.85kb] [文件加载：52]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'initData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->initData[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.006670s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074363.6640105' [ RunTime:0.001664s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.036941' [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.4955785' [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.976221' [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.343988' [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.8205929' [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.2878277' [ RunTime:0.002694s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.6490738' [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.1321914' [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.6007204' [ RunTime:0.001884s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.9758193' [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.4441533' [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.9125733' [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.2886672' [ RunTime:0.001958s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.7575328' [ RunTime:0.001612s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.2252119' [ RunTime:0.001753s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.599832' [ RunTime:0.001757s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.0641415' [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.528021' [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.9131515' [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.38371' [ RunTime:0.001622s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.846001' [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.2207093' [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.6889226' [ RunTime:0.002806s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.143939' [ RunTime:0.001709s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.5202165' [ RunTime:0.001671s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.9928267' [ RunTime:0.001695s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.4490302' [ RunTime:0.001597s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.836525' [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.2953253' [ RunTime:0.002472s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.7747688' [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074377.1442547' [ RunTime:0.001901s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074378.0793056' [ RunTime:0.001828s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.4003918' [ RunTime:0.001772s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.6796422' [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074401.0483906' [ RunTime:0.001970s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074404.144352' [ RunTime:0.012225s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074709.437199' [ RunTime:0.001821s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.4642997' [ RunTime:0.002740s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.7443159' [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074715.4415693' [ RunTime:0.007988s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.003402s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.002620s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:18:58+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/datacount
+[ info ] localhost/weightdata/weightdata/index/index/datacount [运行时间：0.024510s][吞吐率：40.80req/s] [内存消耗：2,336.23kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'datacount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:19:08+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/datacount
+[ info ] localhost/weightdata/weightdata/index/index/datacount [运行时间：0.025478s][吞吐率：39.25req/s] [内存消耗：2,337.05kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'datacount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:19:08+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/datacount
+[ info ] localhost/weightdata/weightdata/index/index/datacount [运行时间：0.024289s][吞吐率：41.17req/s] [内存消耗：2,337.05kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'datacount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:19:11+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/datacount
+[ info ] localhost/weightdata/weightdata/index/index/datacount [运行时间：0.025671s][吞吐率：38.95req/s] [内存消耗：2,337.05kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'datacount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:19:11+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/datacount
+[ info ] localhost/weightdata/weightdata/index/index/datacount [运行时间：0.024005s][吞吐率：41.66req/s] [内存消耗：2,337.05kb] [文件加载：48]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'datacount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:19:22+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/choiceCount
+[ info ] localhost/weightdata/weightdata/index/index/choiceCount [运行时间：0.185548s][吞吐率：5.39req/s] [内存消耗：4,652.38kb] [文件加载：52]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'choiceCount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->choicecount[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.006417s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074363.6640105' [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.036941' [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.4955785' [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.976221' [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.343988' [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.8205929' [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.2878277' [ RunTime:0.002645s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.6490738' [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.1321914' [ RunTime:0.001882s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.6007204' [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.9758193' [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.4441533' [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.9125733' [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.2886672' [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.7575328' [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.2252119' [ RunTime:0.001864s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.599832' [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.0641415' [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.528021' [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.9131515' [ RunTime:0.001717s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.38371' [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.846001' [ RunTime:0.001698s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.2207093' [ RunTime:0.002196s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.6889226' [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.143939' [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.5202165' [ RunTime:0.001543s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.9928267' [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.4490302' [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.836525' [ RunTime:0.002136s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.2953253' [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.7747688' [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074377.1442547' [ RunTime:0.002081s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074378.0793056' [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.4003918' [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.6796422' [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074401.0483906' [ RunTime:0.001820s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074404.144352' [ RunTime:0.013131s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074709.437199' [ RunTime:0.001848s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.4642997' [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.7443159' [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074715.4415693' [ RunTime:0.008457s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.004809s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.007073s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.003288s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:19:26+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/choiceCount
+[ info ] localhost/weightdata/weightdata/index/index/choiceCount [运行时间：0.190966s][吞吐率：5.24req/s] [内存消耗：4,652.77kb] [文件加载：52]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'choiceCount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->choicecount[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001022s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.002040s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.007010s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074363.6640105' [ RunTime:0.002073s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.036941' [ RunTime:0.002280s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.4955785' [ RunTime:0.001783s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.976221' [ RunTime:0.001588s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.343988' [ RunTime:0.001596s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.8205929' [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.2878277' [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.6490738' [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.1321914' [ RunTime:0.001584s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.6007204' [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.9758193' [ RunTime:0.002595s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.4441533' [ RunTime:0.002049s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.9125733' [ RunTime:0.001719s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.2886672' [ RunTime:0.001591s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.7575328' [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.2252119' [ RunTime:0.001596s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.599832' [ RunTime:0.001926s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.0641415' [ RunTime:0.001549s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.528021' [ RunTime:0.001798s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.9131515' [ RunTime:0.001720s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.38371' [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.846001' [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.2207093' [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.6889226' [ RunTime:0.001725s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.143939' [ RunTime:0.002691s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.5202165' [ RunTime:0.001955s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.9928267' [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.4490302' [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.836525' [ RunTime:0.003150s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.2953253' [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.7747688' [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074377.1442547' [ RunTime:0.001688s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074378.0793056' [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.4003918' [ RunTime:0.001692s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.6796422' [ RunTime:0.001735s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074401.0483906' [ RunTime:0.002106s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074404.144352' [ RunTime:0.013322s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074709.437199' [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.4642997' [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.7443159' [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074715.4415693' [ RunTime:0.007988s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.004259s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.007469s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.002591s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:19:42+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/choiceCount
+[ info ] localhost/weightdata/weightdata/index/index/choiceCount [运行时间：0.168162s][吞吐率：5.95req/s] [内存消耗：3,516.66kb] [文件加载：52]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'choiceCount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->choicecount[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.006664s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074363.6640105' [ RunTime:0.002380s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.036941' [ RunTime:0.001977s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.4955785' [ RunTime:0.001666s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.976221' [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.343988' [ RunTime:0.001588s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.8205929' [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.2878277' [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.6490738' [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.1321914' [ RunTime:0.002576s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.6007204' [ RunTime:0.001788s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.9758193' [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.4441533' [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.9125733' [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.2886672' [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.7575328' [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.2252119' [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.599832' [ RunTime:0.001911s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.0641415' [ RunTime:0.001672s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.528021' [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.9131515' [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.38371' [ RunTime:0.001594s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.846001' [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.2207093' [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.6889226' [ RunTime:0.002463s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.143939' [ RunTime:0.001819s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.5202165' [ RunTime:0.002170s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.9928267' [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.4490302' [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.836525' [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.2953253' [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.7747688' [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074377.1442547' [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074378.0793056' [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.4003918' [ RunTime:0.001841s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.6796422' [ RunTime:0.001679s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074401.0483906' [ RunTime:0.001806s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074404.144352' [ RunTime:0.013051s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074709.437199' [ RunTime:0.002163s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.4642997' [ RunTime:0.002188s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.7443159' [ RunTime:0.001845s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074715.4415693' [ RunTime:0.007618s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.003754s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.006865s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.002920s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:19:43+08:00 ] ::1 ::1 GET /weightdata/weightdata/index/index/choiceCount
+[ info ] localhost/weightdata/weightdata/index/index/choiceCount [运行时间：0.160597s][吞吐率：6.23req/s] [内存消耗：3,516.66kb] [文件加载：52]
+[ info ] [ LANG ] E:\code\php\weightdata\weightdata\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'choiceCount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'sessionid=ju6w82dp7v5kfniqmkqyz8oyr95hoi84; pgv_pvi=4484905984; _ga=GA1.1.203632370.1510848144; csrftoken=hP2kz6A2TThNEpfhLAqDRyRBIL6N1BjynFRQQe1Pbmw1jSePrYpG4BFXC6lWgmlw; staffname=e274abeddd4a545c1087fa05572ead6d; username=user1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->choicecount[ E:\code\php\weightdata\weightdata\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001214s ] mysql:host=127.0.0.1;dbname=weight_data;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `initial_data` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `sign` FROM `initial_data` [ RunTime:0.007155s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074363.6640105' [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.036941' [ RunTime:0.001946s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.4955785' [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074364.976221' [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.343988' [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074365.8205929' [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.2878277' [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074366.6490738' [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.1321914' [ RunTime:0.001602s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.6007204' [ RunTime:0.001746s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074367.9758193' [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.4441533' [ RunTime:0.002048s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074368.9125733' [ RunTime:0.001620s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.2886672' [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074369.7575328' [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.2252119' [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074370.599832' [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.0641415' [ RunTime:0.001840s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.528021' [ RunTime:0.001955s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074371.9131515' [ RunTime:0.001634s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.38371' [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074372.846001' [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.2207093' [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074373.6889226' [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.143939' [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.5202165' [ RunTime:0.001719s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074374.9928267' [ RunTime:0.002012s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.4490302' [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074375.836525' [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.2953253' [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074376.7747688' [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074377.1442547' [ RunTime:0.002689s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074378.0793056' [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.4003918' [ RunTime:0.001659s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074400.6796422' [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074401.0483906' [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074404.144352' [ RunTime:0.013015s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074709.437199' [ RunTime:0.001791s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.4642997' [ RunTime:0.001789s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074713.7443159' [ RunTime:0.001672s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074715.4415693' [ RunTime:0.008588s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074889.095926' [ RunTime:0.003186s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511074940.2651486' [ RunTime:0.008445s ]
+[ sql ] [ SQL ] SELECT * FROM `initial_data` WHERE  `sign` = '1511075090.80156' [ RunTime:0.002634s ]

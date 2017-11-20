@@ -12,7 +12,7 @@ class Index extends Controller
 
     protected $beforeActionList = [
         'checkLogin' => ['except'=>'index,login'],
-        'initData'  =>  ['only'=>'choiceCount,detailData'],
+        'initData'  =>  ['only'=>'choicecount,detaildata'],
     ];
 
     protected function checkLogin(){
@@ -58,19 +58,16 @@ class Index extends Controller
                     array_push($effectMeasure,$tmp);
             }
         $this->effectMeasure = $effectMeasure;
-        dump($this->effectMeasure);
     }
 
     //所有数据，按照每一次测量来分类，过滤掉一些数据
-    public function choiceCount(){
-//        return count($this->effecMeasure);
-        dump($this->effectMeasure);
+    public function choicecount(){
+        return count($this->effectMeasure);
     }
 
-
     //查询详细的数据图表
-    public function detailData($id){
-
+    public function detaildata($num){
+        
     }
 
 }
