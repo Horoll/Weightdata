@@ -10,12 +10,16 @@ class Index extends Controller
         return $this->fetch();
     }
 
-    protected $befotrAction = [
-        'checkLogin' => ['except'=>'index,login']
+    protected $beforeActionList = [
+        'checkLogin' => ['except'=>'index,login'],
+        'initData'  =>  ['only'=>'choiceCount,detailData'],
     ];
 
-    private function checkLogin(){
-        if(empty(cookie('username'))) $this->error('请先登录','index/index');
+    protected function checkLogin(){
+        if(empty(cookie('username'))){
+            $this->error('请先登录','index/index');
+            return;
+        }
     }
 
     public function login($accountname,$password){
@@ -35,11 +39,8 @@ class Index extends Controller
         return $this->fetch();
     }
 
-    private $effecMeasure;//每次称重的数据集
+    private $effectMeasure;//有效称重的数据集
 
-    protected $beforeActionList = [
-        'initDate'  =>  ['only'=>'dataCount,detailData'],
-    ];
 
     //用于给everyMeasure属性赋值，过滤掉数据量过少的数据
     public function initData(){
@@ -53,16 +54,17 @@ class Index extends Controller
                 $tmp = Db::table('initial_data')
                     ->where('sign',$value['sign'])
                     ->select();
-                echo count($tmp).'<br>';
                 if(count($tmp)>=6)
                     array_push($effectMeasure,$tmp);
             }
         $this->effectMeasure = $effectMeasure;
+        dump($this->effectMeasure);
     }
 
     //所有数据，按照每一次测量来分类，过滤掉一些数据
     public function choiceCount(){
-        return count($this->effecMeasure);
+//        return count($this->effecMeasure);
+        dump($this->effectMeasure);
     }
 
 
